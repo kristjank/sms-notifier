@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "@ots2018/sms-notifier",
+  "description": "Provides blockchain events for ARK Core",
+  "version": "0.0.1",
+  "contributors": [
+    "Kristjan Kosic <kristjan@ark.io>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:docs": "../../node_modules/.bin/jsdoc -c jsdoc.json",
+    "test": "ARK_ENV=test jest --forceExit",
+    "test:coverage": "ARK_ENV=test jest --coverage --forceExit",
+    "test:debug": "ARK_ENV=test node --inspect-brk ../../node_modules/.bin/jest --runInBand --watch",
+    "test:watch": "ARK_ENV=test jest --runInBand --watch",
+    "test:watch:all": "ARK_ENV=test jest --runInBand --watchAll",
+    "lint": "eslint ./ --fix",
+    "depcheck": "depcheck ./"
+  },
+  "devDependencies": {
+    "depcheck": "^0.6.9",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.1.0",
+    "jest-extended": "^0.7.2",
+    "jsdoc": "^3.5.5",
+    "regenerator-runtime": "^0.11.1",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "nexmo": "^2.3.2"
+  }
+}
