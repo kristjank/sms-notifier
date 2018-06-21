@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "@ots2018/sms-notifier",
-  "description": "Provides blockchain events for ARK Core",
+  "name": "@examples/sms-notifier",
+  "description": "Functional example plugin: Provides blockchain notifications via sms for ARK Core",
   "version": "0.0.1",
   "contributors": [
     "Kristjan Kosic <kristjan@ark.io>"
