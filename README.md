@@ -23,12 +23,16 @@ lerna bootstrap
 ```
 
 ## Configuration
-Add and adjust the following setup from [defaults.js](https://github.com/ArkEcosystem/core/blob/master/packages/core/lib/config/testnet/plugins.js#L98) to the network setup file for plugins loading.
+Add and adjust the following setup from [defaults.js](https://github.com/kristjank/sms-notifier/blob/master/lib/defaults.js) to the network setup file for plugins loading. Plugins.json for selected network can be found in @arkecosystem/core package: https://github.com/ArkEcosystem/core/blob/master/packages/core/lib/config/testnet/plugins.js#L98. Parent folder is the name of your network.
 
-File is located here: https://github.com/ArkEcosystem/core/blob/master/packages/core/lib/config/testnet/plugins.js#L98. Parent folder is the name of your network.
+## Running
+- Go to @arkecosystem/core package
+- Start your node in test mode (or and other) `yarn start:testnet`
+- Wait for messages and check console output
+
+Feel free to further explore the possible events and conditions. A list of events ca be found here: https://docs.ark.io/docs/events#section-available-events
 
 ## Security
-
 If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
 
 ## Credits
