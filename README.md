@@ -23,7 +23,8 @@ lerna bootstrap
 ```
 
 ## Configuration
-Add the following setup from defaults.js to the network setup file for plugins loading.
+Add and adjust the following setup from [defaults.js](https://github.com/ArkEcosystem/core/blob/master/packages/core/lib/config/testnet/plugins.js#L98) to the network setup file for plugins loading.
+
 File is located here: https://github.com/ArkEcosystem/core/blob/master/packages/core/lib/config/testnet/plugins.js#L98. Parent folder is the name of your network.
 
 ## Security
