@@ -18,7 +18,13 @@
 cd core
 cd plugins
 git clone https://github.com/kristjank/sms-notifier/edit/master/README.md
+
+lerna bootstrap
 ```
+
+## Configuration
+Add the following setup from defaults.js to the network setup file for plugins loading.
+File is located here: https://github.com/ArkEcosystem/core/blob/master/packages/core/lib/config/testnet/plugins.js#L98. Parent folder is the name of your network.
 
 ## Security
 
