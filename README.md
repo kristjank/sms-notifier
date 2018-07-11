@@ -17,7 +17,7 @@
 ```bash
 cd core
 cd plugins
-git clone https://github.com/kristjank/sms-notifier/edit/master/README.md
+git clone https://github.com/kristjank/sms-notifier
 
 lerna bootstrap
 ```
